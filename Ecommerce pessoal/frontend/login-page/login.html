@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-left">
+            <h1>SUA LOGO</h1>
+            <h2>Bem-vindo!</h2>
+            <p>Faça login para acessar sua conta e aproveitar nossos produtos exclusivos.</p>
+        </div>
+        <div class="login-right">
+            <form class="login-form">
+                <h2 class="name-login">Login</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+            <p class="new-user">
+                Novo aqui? <a onclick="location.href='../cadastro-page/cadastro.html'">Cadastre-se</a>
+                
+            </p>
+            <p class="back-main"><a onclick="location.href = '../main-page/index.html'">Voltar</a></p>
+        </div>
+    </div>
+</body>
+</html>

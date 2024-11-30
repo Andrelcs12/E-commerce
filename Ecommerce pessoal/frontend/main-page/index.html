@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Online</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Sua Logo</h1>
+        <button class="menu-toggle" aria-label="Menu">
+            ☰
+        </button>
+        <nav class="navbar-itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="../about/about.html">Sobre Nós</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <button id="header-btn-login" onclick="location.href='../login-page/login.html'">Login</button>
+            <div class="aba-de-pesquisa">
+                <input type="search" id="search" placeholder="Pesquisa">
+            </div>
+            <img src="carrinhho_icon-removebg-preview.png" alt="Imagem do carrinho" height="25px" />
+            <img src="../img/icon-perfil.png" height="15px" class="img-perfil" alt="">
+        </nav>
+    </div>
+    
+    <section class="categorias">
+        <ul>
+            <li><a href="#category-title" data-category="Camisetas">Camisetas</a></li>
+            <li><a href="#" data-category="Tênis">Tênis</a></li>
+            <li><a href="#" data-category="Bermudas">Bermudas</a></li>
+            <li><a href="#" data-category="Bonés">Bonés</a></li>
+            <li><a href="#" data-category="Acessórios">Acessórios</a></li>
+        </ul>
+    </section>
+
+    <section class="apresentacao">
+        <div class="left-wcm">
+            <h1>Bem-vindo ao Seu E-Commerce</h1>
+            <p>Descubra os melhores produtos com ofertas imperdíveis!</p>
+            <a href="#produtos" class="wcm-btn">Ver Produtos</a>
+        </div>
+        <div class="right-wcm">
+            <img src="../img/wcm.jpg" alt="Imagem promocional">
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+    
+        <!-- Os produtos e categorias serão carregados aqui pelo script -->
+    </section>
+
+    
+
+    <!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <!-- Coluna 1: Detalhes da loja -->
+        <div class="footer-col">
+            <h3>Programas</h3>
+            <p>Corporação</p>
+            <p>Consultoria</p>
+            <p>Afiliados</p>
+        </div>
+
+        <!-- Coluna 2: Localização -->
+        <div class="footer-col">
+            <h3>Cartão do Dré</h3>
+            <p>Crie seu cartão</p>
+            <p>Veja sua fatura</p>
+            <p>Saber mais</p>
+        </div>
+
+        <!-- Coluna 3: Horário de funcionamento -->
+        <div class="footer-col">
+            <h3>Ajuda</h3>
+            <p>atendimento</p>
+            <p>Trocas e devoluções</p>
+            <p>Política de privacidade</p>
+        </div>
+
+        <!-- Coluna 4: Redes sociais -->
+        <div class="footer-col">
+            <h3>Siga-nos</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="youtube-icon.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script src="script.js"></script>
+    <script src="funcoes.js"></script>
+</body>
+</html>
