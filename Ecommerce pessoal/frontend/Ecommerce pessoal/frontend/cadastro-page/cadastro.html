@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../cadastro-page/cadastro.css"> 
+</head>
+<body>
+    <div class="cadastro-page">
+        <div class="cadastro-form">
+            <h2>Cadastro</h2>
+            <form action="../cadastro-page/cadastro-processar.php" method="POST">
+        
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo" required>
+                    <option value="">Selecione seu sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+                <label for="confirma-senha">Confirme sua senha:</label>
+                <input type="password" id="confirma-senha" name="confirma-senha" placeholder="Confirme sua senha" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+
+                <div class="end">
+                    <div class="checkbox">
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos" class="msg">
+                            Aceito os <a href="#">termos e condições</a>
+                        </label>
+                    </div>
+
+                    <div class="backmain">
+                        <button type="submit">Cadastrar</button>
+                        <p class="back-main">
+                            <a href="../main-page/index.html">Voltar</a>
+                        </p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

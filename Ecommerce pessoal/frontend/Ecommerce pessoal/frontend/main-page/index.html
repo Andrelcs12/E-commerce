@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja Online</title>
+</head>
+<body>
+    <div class="header">
+        <h1>LOJA DO DRÉ</h1>
+        <button class="menu-toggle" aria-label="Menu">
+            ☰
+        </button>
+        <nav class="navbar-itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="../about/about.html">Sobre Nós</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.navbar-itens').classList.toggle('active')">
+                ☰
+            </button>
+            <a onclick="location.href='../login-page/login.html'" id="header-btn-login">login</a>
+            
+            <div class="aba-de-pesquisa">
+                <input type="search" id="search" placeholder="Pesquisa">
+            </div>
+            <img src="carrinhho_icon-removebg-preview.png" alt="Imagem do carrinho" height="25px" />
+            <img src="../img/icon-perfil.png" height="15px" class="img-perfil" alt="">
+        </nav>
+    </div>
+    
+    <section class="categorias">
+        <ul>
+            <li><a href="#category-title" data-category="Camisetas">Camisetas</a></li>
+            <li><a href="#" data-category="Tênis">Tênis</a></li>
+            <li><a href="#" data-category="Bermudas">Bermudas</a></li>
+            <li><a href="#" data-category="Bonés">Bonés</a></li>
+            <li><a href="#" data-category="Acessórios">Acessórios</a></li>
+        </ul>
+    </section>
+
+    <section class="apresentacao">
+        <div class="left-wcm">
+            <h1>Bem-vindo à Loja do Dré</h1>
+            <p>Descubra os melhores produtos com ofertas imperdíveis!</p>
+            <a href="#produtos" class="wcm-btn">Ver Produtos</a>
+        </div>
+        <div class="right-wcm">
+            <img src="../img/wcm.jpg" alt="Imagem promocional">
+        </div>
+    </section>
+
+    
+
+    <section class="descontos">
+        <div class="descontos-header">
+            <h2>Aproveite Nossos Descontos!</h2>
+            <p>Ofertas exclusivas por tempo limitado. Confira agora!</p>
+        </div>
+        <div class="descontos-imgs">
+            <div class="slider-track">
+                <div class="slider-item">
+                    <img src="../img/about-img.jpg" alt="Desconto 1">
+                    <p>Até <strong>50%</strong> OFF em Camisetas!</p>
+                </div>
+                <div class="slider-item">
+                    <img src="../img/about2.jpg" alt="Desconto 2">
+                    <p>Leve 2, pague 1 em Acessórios!</p>
+                </div>
+                <div class="slider-item">
+                    <img src="../img/about3.jpg" alt="Desconto 3">
+                    <p>Descontos imperdíveis em Tênis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+
+<section id="produtos">
+    <h2>Produtos</h2>
+    
+    </section>
+
+    
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>Programas</h3>
+            <p>Corporação</p>
+            <p>Consultoria</p>
+            <p>Afiliados</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Cartão do Dré</h3>
+            <p>Crie seu cartão</p>
+            <p>Veja sua fatura</p>
+            <p>Saber mais</p>
+        </div>
+
+    
+        <div class="footer-col">
+            <h3>Ajuda</h3>
+            <p>atendimento</p>
+            <p>Trocas e devoluções</p>
+            <p>Política de privacidade</p>
+        </div>
+
+        
+        <div class="footer-col">
+            <h3>Siga-nos</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><img src="../img/facebook_2504903.png" alt="Facebook">Facebook</a>
+                <a href="#" class="social-icon"><img src="../img/instagram_2111463.png" alt="Instagram">Instagram</a>
+                <a href="#" class="social-icon"><img src="../img/twitter_5968830 (1).png" alt="Twitter">Twitter</a>
+                <a href="#" class="social-icon"><img src="../img/youtube_3938026.png" alt="YouTube">YouTube</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    
+    <script src="script.js"></script>
+    <script src="funcoes.js"></script>
+    <script src="slider.jss"></script>
+</body>
+</html>
